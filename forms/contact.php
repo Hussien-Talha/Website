@@ -38,10 +38,4 @@
   $contact->add_message( $_POST['message'], 'Message', 10);
 
   echo $contact->send();
-$contact->invalid_to_email = 'Email to (receiving email address) is empty or invalid!';
-$contact->invalid_from_name' = 'From Name is empty!';
-$contact->invalid_from_email' = 'Email from: is empty or invalid!';
-$contact->invalid_subject' = 'Subject is too short or empty!';
-$contact->short' = 'is too short or empty!'; // If the length check number is set and the provided message text is under the set length in the add_message() method call
-$contact->ajax_error' = 'Sorry, the request should be an Ajax POST'; // If ajax property is set true and the post method is not an AJAX call
 ?>
