@@ -1,9 +1,4 @@
-/**
-* @author Dilshan M. Karunarathne
-* All rights reserved (C)
-* 2022 October
-* Kandy, Sri Lanka
-*/
+
 
 (function() {
   "use strict";
